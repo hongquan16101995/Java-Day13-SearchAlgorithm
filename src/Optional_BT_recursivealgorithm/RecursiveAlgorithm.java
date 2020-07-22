@@ -15,10 +15,10 @@ public class RecursiveAlgorithm {
         Collections.sort(strings);
         System.out.println(strings);
 
-        if(searchBinary(strings,0, strings.size()-1,ch) != -1){
-            System.out.println("Strings has value '" + ch + "'" +'!');
-        }else
-            System.out.println("Strings has not value '" + ch + "'" +'!');
+        if (searchBinary(strings, 0, strings.size() - 1, ch) != -1) {
+            System.out.println("Strings has value '" + ch + "'" + '!');
+        } else
+            System.out.println("Strings has not value '" + ch + "'" + '!');
     }
 
     public static int searchBinary(ArrayList<Character> strings, int low, int high, Character value) {
